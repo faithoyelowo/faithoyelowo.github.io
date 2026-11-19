@@ -110,19 +110,48 @@
             border-radius: 10px;
         }
         .contact-btn {
-        display: inline-block;
-        background: #1e3a5f;
-        color: white;
-        padding: 12px 24px;
-        border-radius: 6px;
-        text-decoration: none;
-        margin-top: 15px;
-        font-weight: bold;
-    }
+            display: inline-block;
+            background: #1e3a5f;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: bold;
+        }
     
-    .contact-btn:hover {
-        background: #2563eb;
-    }
+        .contact-btn:hover {
+            background: #2563eb;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 0 12px;
+            }
+        
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px;
+            }
+        
+            .project {
+                padding: 18px;
+                margin: 15px 0;
+            }
+        
+            h1 {
+                font-size: 28px;
+            }
+        
+            h2 {
+                font-size: 23px;
+            }
+        
+            .project img {
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
