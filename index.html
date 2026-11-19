@@ -24,7 +24,18 @@
         nav a {
             color: white;
             text-decoration: none;
-            margin: 10px;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: #172b4d;
+            padding: 15px;
+        }
+        nav a:hover {
+            color: #93c5fd;
         }
         .hero {
             padding: 100px 8%;
@@ -100,7 +111,11 @@
             background: #172b4d;
             color: white;
             text-align: center;
-            padding: 25px;
+            padding: 25px 15px;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 8px 0;
         }
         .project img {
             width: 100%;
@@ -166,6 +181,12 @@
          color: #172b4d;
          margin-bottom: 10px;
             }
+    html {
+        scroll-behavior: smooth;
+    }
+    section {
+        padding: 45px 0;
+    }
     </style>
 </head>
 <body>
@@ -306,7 +327,8 @@
 </section>
 
 <footer>
-    <p>© 2026 Faith Oyelowo | Data Analyst</p>
+    <p>&copy; 2026 Faith Oyelowo. All rights reserved.</p>
+    <p>Data Analyst | Excel | SQL | Power BI</p>
 </footer>
 
 </body>
